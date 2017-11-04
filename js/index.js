@@ -1,5 +1,6 @@
 import '../css/main.css';
 import Vue from 'vue';
+import Vuex from 'vuex'
 import App from './App.vue'
 import Game from './components/Game';
 import Home from './components/home/Home';
@@ -8,6 +9,7 @@ import store from './vuex/store';
 import VueRouter from 'vue-router';
 import { routes } from './routes';
 
+Vue.use(Vuex)
 Vue.use(VueRouter);
 
 const router = new VueRouter({

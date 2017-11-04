@@ -1,2 +1,6 @@
 # vue-memory-test
-Teste em Vue
+Instalação:
+
+npm install
+npm start
+
