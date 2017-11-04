@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "noLib": true,
+        "experimentalDecorators": false,
+        "allowSyntheticDefaultImports": false,
+        "module": "es6"
+    },
+    "exclude": [
+        ".vscode",
+        "css",
+        "dist",
+        "img",
+        "node_modules"
+    ]
+}
